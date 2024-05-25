@@ -1,0 +1,47 @@
+body{
+    background-color: cadetblue;
+    font-size: 40px;
+    font-family: cursive;
+    color:honeydew;
+}
+
+p{
+    font-size: 60px;
+    font-family: cursive;
+    color:honeydew;
+}
+
+.p1{
+    text-align: center;
+}
+
+div{
+    width: 270px;
+    height: 100px;
+    background-color:coral;
+    text-align:center;
+    animation-iteration-count: infinite;
+}
+
+.div1{
+    animation-name: straiy_bog ;
+    animation-duration: 10s;
+    position: relative;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes straiy_bog{
+0%{background-color: white; left: 0px; top: 0px;}
+10&{background-color:yellowgreen; left: 300px; top: 0px;}
+20%{background-color: crimson; left: 300px; top: 300px;}
+30%{background-color: red; left: 0px; top: 300px;}
+40%{background-color: blue; left: 0px; top: 0px;}
+50%{background-color: yellow; left: 300px; top: 0px;}
+60%{background-color: indigo; left: 300px; top: 300px;}
+70%{background-color: orange; left:0px; top: 300px;}
+80%{background-color: brown; left:0px; top: 0px;}
+90%{background-color: grey; left:300px; top: 150px;}
+100%{background-color: black; left:400px; top:200px;}
+}
